@@ -26,7 +26,7 @@ jobs:
           channel: 'stable'
 
       - name: Gerar estrutura nativa (android/ios)
-        run: flutter create . --platforms=android
+        run: flutter create . --platforms=android --project-name=ferragem_store --org=com.ferragemstore
 
       - name: Instalar dependencias
         run: flutter pub get
